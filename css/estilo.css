@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #01295e;
+  font-family: "Montserrat", sem serifa;
+}
+
+#container {
+  width: 100%;
+}
+
+img {
+  display: flex;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 25px;
+  font-weight: 700;
+}
+
+ul li a:hover {
+  background: #fff;
+  color: #01295e;
+  height: 15px;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#paragrafo {
+  width: 90%;
+  margin: auto;
+}
+
+.texto {
+  color: #fff;
+  font-size: 17px;
+  padding: 15px;
+  text-align: center;
+  line-height: 28px;
+}
+
+#conteiner-rodape {
+  padding: 20px;
+}
+
+#rodape {
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+}
+
+form {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+textarea {
+  display: block;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  height: 100px;
+  width: 352px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+input {
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  display: block;
+  border-radius: 5px;
+  height: 50px;
+  width: 352px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+button {
+  background: #40bb15;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 174px;
+  cursor: pointer;
+  color: #fff;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+.voltar {
+  background: gray;
+}
+
+.contato {
+  background: #40bb15;
+
+  margin-left: 56.6em;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.container {
+  transition: opacity 1s;
+}
